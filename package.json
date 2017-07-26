@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +17,22 @@
     "url": "https://github.com/skybluexzh/react-fundamentals/issues"
   },
   "homepage": "https://github.com/skybluexzh/react-fundamentals#readme",
+  "babel": {
+    "presets": ["env", "react"]
+  },
   "dependencies": {
-    "webpack": "^3.3.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.6.1"
   }
 }
