@@ -1,0 +1,22 @@
+{
+  "name": "react-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skybluexzh/react-fundamentals.git"
+  },
+  "author": "Sharon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skybluexzh/react-fundamentals/issues"
+  },
+  "homepage": "https://github.com/skybluexzh/react-fundamentals#readme",
+  "dependencies": {
+    "webpack": "^3.3.0"
+  }
+}
